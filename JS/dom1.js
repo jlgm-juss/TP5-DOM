@@ -17,9 +17,9 @@ function adivinar(e){
     if(numeroIngresado == numeroAdivinar){
         alert('Adivinaste!')
     }else if (numeroAdivinar < numeroIngresado){
-        alert("¡Fallaste! Tu número " +numeroIngresado+ " es mayor al número mágico " +numeroAdivinar+".")
+        alert("¡Fallaste! Tu número " +numeroIngresado+ " es mayor al número mágico ")
     }
     else{
-        alert("¡Fallaste! Tu número " +numeroIngresado+ " es menor al número mágico " +numeroAdivinar+".")
+        alert("¡Fallaste! Tu número " +numeroIngresado+ " es menor al número mágico ")
     }
 }

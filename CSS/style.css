@@ -1,0 +1,8 @@
+body{
+    background-color: rgb(4, 116, 116);
+}
+
+.btn:hover{
+color: red;
+text-decoration: red;
+}
